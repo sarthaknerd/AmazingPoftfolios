@@ -23,8 +23,12 @@ git pull upstream master
 
 6. Add commit message ```git commit -m "<your message here>"``` and push the code using ```git push <remote name> <branch name>```
 
-7. Then go to the main repo from where the project is forked and go into **Pull Request** tab and click create **new pull request** and request for new PR.
+7. Then go to the main repo from where the project is forked and go into **Pull Request** tab.
+
 <p align="left"><img alt="forking" src="img/pr.jpeg"></p>
+
+8. Click create **new pull request** and request for new PR.
+
 <p align="left"><img alt="forking" src="img/new_pr.jpeg"></p>
 
 And bam!:fire: thats it.
