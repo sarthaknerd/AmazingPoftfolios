@@ -26,10 +26,11 @@ git pull upstream master
 7. Then go to the main repo from where the project is forked and go into **Pull Request** tab.
 <p align="left"><img alt="Pull Request creation" src="img/pr.jpeg"></p>
 
-8. Select the branch from forked repo you have contributed to and want to merge to the main repo.
+8. Click **New Pull Request** button.
+<p align="left"><img alt="forking" src="img/new_pr.jpeg"></p>
+
+9. Select the branch from forked repo you have contributed to and want to merge to the main repo and click **Create Pull Request**.
 <p align="left"><img alt="Selecting branch for pull request" src="img/select_branch.jpeg"></p>
 
-9. Click create **Creating a pull request** and request for new PR.
-<p align="left"><img alt="forking" src="img/new_pr.jpeg"></p>
 
 And bam!:fire: thats it.
