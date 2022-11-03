@@ -10,34 +10,40 @@ Hello<img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width
 
 #### Want to contribute?
 1. Fork this repo. You can fork the repo by clicking "fork" button on top-right corner.
-<p align="left"><img alt="forking" src="img/fork.jpeg"></p>
+   <p align="left"><img alt="forking" src="img/fork.jpeg"></p>
 
 2. Clone it on your local machine by simply clicking green "code" button and copying the given link.
-<p align="left"><img alt="forking" src="img/clone.jpeg"></p>
+   <p align="left"><img alt="forking" src="img/clone.jpeg"></p>
 
-Copy this link and open command prompt and switch to the location you want to save the project and run 
-```git clone <copied link here>```
+   Copy this link and open command prompt and switch to the location you want to save the project and run 
+   ``` sh
+   git clone https://github.com/<your username>/AmazingPoftfolios
+   ```
 
 3. Add your changes or features.
 
 4. Before pushing the code run following command to avoid merge conflicts
-``` bash
-git remote add upstream https://github.com/sarthaknerd/Poftfolio.git
-git fetch upstream
-git pull upstream master
-```
+   ``` sh
+   git remote add upstream https://github.com/sarthaknerd/Poftfolio.git
+   git fetch upstream
+   git pull upstream master
+   ```
 5. Stage all the changes using ```git add .```
 
-6. Add commit message ```git commit -m "<your message here>"``` and push the code using ```git push <remote name> <branch name>```
+6. Add commit message and push the changes 
+   ```sh  
+   git commit -m "<your message here>" 
+   git push <remote name> <branch name>
+   ```
 
 7. Then go to the main repo from where the project is forked and go into **Pull Request** tab.
-<p align="left"><img alt="Pull Request creation" src="img/pr.jpeg"></p>
+   <p align="left"><img alt="Pull Request creation" src="img/pr.jpeg"></p>
 
 8. Click **New Pull Request** button.
-<p align="left"><img alt="forking" src="img/new_pr.jpeg"></p>
+   <p align="left"><img alt="forking" src="img/new_pr.jpeg"></p>
 
 9. Select the branch from forked repo you have contributed to and want to merge to the main repo and click **Create Pull Request**.
-<p align="left"><img alt="Selecting branch for pull request" src="img/select_branch.jpeg"></p>
+   <p align="left"><img alt="Selecting branch for pull request" src="img/select_branch.jpeg"></p>
 
 
 And bam!:fire: thats it.
